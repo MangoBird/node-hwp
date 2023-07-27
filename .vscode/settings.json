@@ -1,0 +1,11 @@
+{
+	"debug.javascript.autoAttachFilter": "smart",  
+	"editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.foldingStrategy": "indentation",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.tslint": true
+  },
+  "editor.insertSpaces": false,
+  "editor.detectIndentation": false,
+}

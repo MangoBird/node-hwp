@@ -10,12 +10,13 @@
 		"url": "https://github.com/123jimin/node-hwp.git"
 	},
 	"dependencies": {
-		"xmldoc": "^0.1.2",
-		"event-stream": "^3.1.1"
+		"event-stream": "^3.1.1",
+		"xmldoc": "^0.1.2"
 	},
 	"devDependencies": {
 		"async": "^0.2.9",
-		"jison": "^0.4.13"
+		"jison": "^0.4.13",
+		"prettier": "^3.0.0"
 	},
 	"scripts": {
 		"prepublish": "jison format/format.jison -o format/format.js; node generate.js",
